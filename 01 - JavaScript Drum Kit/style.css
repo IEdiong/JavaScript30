@@ -55,7 +55,7 @@ body {
     line-height: 1;
 }
 
-.key span {
+.key .sound {
     display: block;
     font-size: 2rem;
 }

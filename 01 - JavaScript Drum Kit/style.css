@@ -7,13 +7,41 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    /* font-family: 'Mirza', cursive;s */
-    background: hsl(291, 86%, 25%);
+    font-family: 'Mirza', cursive;
+    background: hsl(291, 45%, 22%);
+    color: #ffffff;
+    font-size: 1.2rem;
 }
+
+.container {
+    width: 88%;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.header {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+    display: grid;
+}
+
 
 .key {
     width: 300px;
     height: 300px;
-    border: 2px solid linear-gradient(180deg, hsl(314, 86%, 25%) 7%, hsl(45, 100%, 50%) 86%);
+    margin-top: 2em;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(180deg, hsl(343.1, 67.9%, 37.8%) 2%, hsl(45, 100%, 50%) 98%);
 }

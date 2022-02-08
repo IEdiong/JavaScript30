@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Mirza', cursive;s */
+    background: hsl(291, 86%, 25%);
+}
+
+.key {
+    width: 300px;
+    height: 300px;
+    border: 2px solid linear-gradient(180deg, hsl(314, 86%, 25%) 7%, hsl(45, 100%, 50%) 86%);
+}

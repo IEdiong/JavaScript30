@@ -2,7 +2,7 @@
 
 ## Projects
 
-- Day 1: Drum kit
+- Day 1: [Drum kit](https://js30-drum-kit-seven.vercel.app/)
 - Day 2: CSS + JS Clock
 
 ## Author
